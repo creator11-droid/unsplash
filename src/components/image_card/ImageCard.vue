@@ -1,6 +1,9 @@
 <template>
   <div class="image_card" @click="showModal=true">
-    <img :src="image_src" loading="lazy" >
+<div class="blur-load" :style="{ backgroundImage: 'url('+ small + ')'}">
+   <img :src="image_src" loading="lazy" >
+</div>
+   
     <div class="desc">
      <h2> {{ author }}</h2> 
      <p>{{ location }}</p>
@@ -29,7 +32,9 @@ const showModal = ref(false);
 defineProps({
   image_src: String,
   author: String,
-  location: String
+  location: String,
+  small:String
+ 
 })
 </script>
 <style scoped>

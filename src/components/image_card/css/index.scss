@@ -3,7 +3,10 @@
   border-radius: 0.75rem;
   position: relative;
  
- 
+ .blur-load{
+  background-size: cover;
+  background-position: center;
+ }
   .desc{
     position: absolute;
     bottom: 0.75rem;

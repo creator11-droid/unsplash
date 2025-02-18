@@ -4,7 +4,7 @@
     
 
     <div v-else v-for="item in data">
-<ImageCard :image_src="item.urls.full" :author="item.user.name" :location="item.user.location" @click="showModal= true"/>
+<ImageCard :image_src="item.urls.full" :author="item.user.name" :location="item.user.location" :small="item.urls.small_s3" />
 
     </div>
   </div>

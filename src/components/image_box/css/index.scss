@@ -1,0 +1,12 @@
+.grid_img{
+  @media only screen and (max-width: 1350px){
+columns: 400px
+  }
+  @media only screen and (max-width: 640px){
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+      }
+  columns: 400px;
+
+
+}

@@ -1,0 +1,16 @@
+.grid_img {
+  -moz-columns: 400px;
+       columns: 400px;
+}
+@media only screen and (max-width: 1350px) {
+  .grid_img {
+    -moz-columns: 400px;
+         columns: 400px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .grid_img {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}/*# sourceMappingURL=index.css.map */

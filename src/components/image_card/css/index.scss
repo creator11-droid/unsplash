@@ -1,0 +1,55 @@
+.image_card{
+
+  border-radius: 0.75rem;
+  position: relative;
+ 
+ 
+  .desc{
+    position: absolute;
+    bottom: 0.75rem;
+    left: 0.5rem;
+    color: #fff;
+  }
+  .hold{
+    @media only screen and (max-width: 640px){
+      gap: 0.4rem;
+      height: 80%;
+      
+         }
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    background: #fff;
+    height: 100%;
+  padding: none;
+    figure{
+      width: 100%;
+      height: 90%;
+      display: inline-block;
+      overflow: hidden;
+
+        img{
+         max-width: 100%;
+         max-height: 100%;
+         object-fit: fill;
+        }
+      
+    }
+    .details{
+      @media only screen and (max-width: 640px){
+        padding-bottom: 0.5rem;
+        padding-left:0.2rem ;
+           }
+      padding-left:4rem ;
+      padding-bottom: 2rem;
+      overflow: hidden;
+      h2{
+        color:#1b4b52;
+      }
+      p{
+        color:#373b3b;
+      }
+    }
+  }
+  
+}

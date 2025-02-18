@@ -62,8 +62,17 @@ img{
     @media only screen and (max-width: 640px){
       padding: 0;
     }
+    @media only screen and (max-width: 1340px){
+      padding: 0;
+    }
     height: 100%;
     padding:0 20rem 0 20rem;
     position: relative;
+    h3{
+      @media only screen and (max-width: 640px){
+        font-size: 1.125rem;
+      }
+      color: #1c4752;
+    }
   }
 }

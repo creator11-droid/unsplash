@@ -65,4 +65,17 @@
   .main .bottom {
     padding: 0;
   }
+}
+@media only screen and (max-width: 1340px) {
+  .main .bottom {
+    padding: 0;
+  }
+}
+.main .bottom h3 {
+  color: #1c4752;
+}
+@media only screen and (max-width: 640px) {
+  .main .bottom h3 {
+    font-size: 1.125rem;
+  }
 }/*# sourceMappingURL=index.css.map */

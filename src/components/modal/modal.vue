@@ -16,7 +16,7 @@
 </template>
 <script setup>
 import { defineProps, defineEmits } from "vue";
-import close from "../../assets/images/Icon.svg";
+import close from "../../assets/images/icon.svg";
 
 const props = defineProps(["show"]);
 const emit = defineEmits(["close"]);
